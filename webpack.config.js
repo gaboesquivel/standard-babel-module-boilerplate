@@ -3,8 +3,6 @@ var path = require('path')
 var env = process.env.NODE_ENV || 'development'
 var minify = process.env.MINIFY || false
 
-console.log('================' + env)
-
 var standardLoader = {
   test: /\.js$/,
   loaders: ['standard'],
