@@ -23,5 +23,4 @@ Add your getting started instructions here.
 
 ## Contributing
 
-- [Contributing](docs/contributing/index.md)
-  - [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
+Read the [contributing guidelines](CONTRIBUTING.md) for details.
