@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "scripts": {
+    "init": "rimraf .validate.json && rimraf .jshintrc  && rimraf .jshintignore",
     "clean": "rimraf build",
     "lint": "standard source/**/*.js test/**/*.js",
     "prebuild": "npm run clean",
@@ -55,6 +56,29 @@
   "homepage": "https://github.com/gaboesquivel/standard-module-boilerplate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaboesquivel/standard-module-boilerplate.git"
+    "url": "git+https://github.com/gaboesquivel/standard-module-boilerplate.git"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "babel": "^5.8.35",
+    "babel-loader": "^5.4.0",
+    "babel-plugin-object-assign": "^1.2.1",
+    "blue-tape": "^0.1.11",
+    "babel-eslint": "^4.1.8",
+    "dependency-check": "^2.5.1",
+    "doctoc": "^0.14.2",
+    "isparta": "^3.5.3",
+    "babel-core": "^6.7.2",
+    "nsp": "^1.1.0",
+    "rimraf": "^2.5.2",
+    "node-libs-browser": "^0.5.3",
+    "faucet": "^0.0.1",
+    "precommit-hook": "^3.0.0",
+    "standard-loader": "^3.0.0",
+    "standard": "^6.0.8",
+    "webpack": "^1.12.14"
   }
 }
