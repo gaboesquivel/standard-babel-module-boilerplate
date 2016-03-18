@@ -1,3 +1,4 @@
+// builds build files without minification
 var webpack = require('webpack')
 var path = require('path')
 
