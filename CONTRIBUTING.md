@@ -5,17 +5,10 @@
 
 - [Reporting bugs](#reporting-bugs)
 - [Git Workflow](#git-workflow)
-- [Pull Request Guidelines](#pull-request-guidelines)
-  - [Clone the repo](#clone-the-repo)
-  - [If there's no issue, please create one](#if-theres-no-issue-please-create-one)
-  - [Let us Know you're working on the issue](#let-us-know-youre-working-on-the-issue)
-  - [Create a feature branch:](#create-a-feature-branch)
-  - [Make your changes and commit:](#make-your-changes-and-commit)
-  - [Create a Pull Request](#create-a-pull-request)
-  - [PR Merge Exception](#pr-merge-exception)
-  - [PR Hints](#pr-hints)
-    - [For large changes spanning many commits / PRs](#for-large-changes-spanning-many-commits--prs)
-  - [Advanced Git tools](#advanced-git-tools)
+- [Pull Request General Guidelines](#pull-request-general-guidelines)
+  - [Always follow these rules:](#always-follow-these-rules)
+- [How To Create a Pull Request](#how-to-create-a-pull-request)
+- [Advanced Git tools](#advanced-git-tools)
 - [Version Numbers](#version-numbers)
     - [Breaking.Feature.Fix](#breakingfeaturefix)
       - [Breaking](#breaking)
@@ -43,77 +36,82 @@ Bug reports should contain the following information:
 ## Git Workflow
 Introduction to Github Flow https://guides.github.com/introduction/flow/
 
-## Pull Request Guidelines
+## Pull Request General Guidelines
 
 * Please check to make sure that there aren't existing pull requests attempting to address the issue mentioned.
 * Check for related issues on the issue tracker.
 * Non-trivial changes should be discussed on an issue first.
-* Develop in a topic branch, not master
-* Squash your commits
-* Write a good description of your PR
+* Let us know you're working on the issue.
+* Develop in a topic branch, not master.
+* Provide useful  Squash your commits.
+* Write a good description of your PR.
 
-### Clone the repo
+### Always follow these rules:  
 
-* Click the GitHub fork button to create your own fork
-* Clone your fork of the repo to your dev system
+* Commit each fix as a separate change
+* Provide useful commit messages  
+* Use the imperative mood in the subject line. Eg. `fix login error`, `add config file`, `remove unused code`   
+* Reference the git issue on the body of your commit message, never on the first line. Eg:   
+```
+git commit -m 'add login feature
+connects to #3'
+```
+* Don't pollute the log! http://bit.ly/1MDciJG
+  * Don't push to master any 'merge messages'
+  * Update your local development branch with `git pull --rebase origin master`
+  * Always Rebase over merge.
+
+## How To Create a Pull Request
+__ Clone the repo __
+
+* Click the GitHub fork button to create your own fork.
+* Clone your fork of the repo to your dev system.
 
 ```
 git clone git@github.com:gaboesquivel/standard-module-boilerplate.git
 ```
 
-### If there's no issue, please create one
-
-
-### Let us Know you're working on the issue
+__ Let us Know you're working on the issue __
 
 If you're actively working on an issue, please comment in the issue thread stating that you're working on a fix, or (if you're an official contributor) assign it to yourself.
+
+If there's no issue, please create one.
 
 This way, others will know they shouldn't try to work on a fix at the same time.
 
 
-### Create a feature branch:
+__ Create a feature branch: __
 
 ```
 git checkout -b <your-branch-name>
 ```
 
-### Make your changes and commit:
+__ Make your changes and commit: __
 
 * Make sure you comply with the [.editorconfig](http://editorconfig.org/)
+* Provide a useful short description.
+* Reference the git issue on the body of your commit message, never on the first line.
+```
+git commit -m '<short description of change>
+connects to #<your-issue-number>'
+```
+
+__ Create a Pull Request __
+
+Create a pull request so others can review the changes.
 
 ```
-git commit -m '[Issue #<your-issue-number>] <short description of change>'
-```
-
-### Create a Pull Request
-
-Please don't merge your own changes. Create a pull request so others can review the changes.
-
-**Push changes:**
-
-```
-git push origin <your-feature-branch>
+git push <your-git-account> <your-feature-branch>
 ```
 
 * Open your repository fork on GitHub
 * You should see a button to create a pull request - Press it
+* Reference the issue number in your pull request message.
 * Consider mentioning a contributor in your pull request comments to alert them that it's available for review
 * **Wait for the reviewer to approve and merge the request**
-
-### PR Merge Exception
-
 * Minor documentation grammar/spelling fixes (code example changes should be reviewed)
 
-
-### PR Hints
-
-Reference the issue number in your commit message e.g.:
-
-```
-$ git commit -m '[#5] Make sure to follow the PR process for contributions'
-```
-
-#### For large changes spanning many commits / PRs
+__ For large changes spanning many commits __
 
 * Create a meta-issue with a bullet list using the `* [ ] item` markdown syntax.
 * Create issues for each bullet point
@@ -123,7 +121,7 @@ $ git commit -m '[#5] Make sure to follow the PR process for contributions'
 Linking from the bullet point issues to the meta issue will create a list of issues with status indicators in the issue comments stream, which will give us a quick visual reference to see what's done and what still needs doing.
 
 
-### Advanced Git tools
+## Advanced Git tools
 
 There are also tools like [Hub](https://hub.github.com/) and [git-extras](https://github.com/tj/git-extras) that facilitate interacting with Github.
 You leverage these tools to contribute to this repository.
