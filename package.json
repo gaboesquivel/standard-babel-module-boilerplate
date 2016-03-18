@@ -48,6 +48,8 @@
     "rimraf": "^2.4.2",
     "webpack": "^1.11.0"
   },
+  "dependencies": {
+  },
   "author": "Gabo Esquivel <contact@gaboesquivel.com>",
   "license": "MIT",
   "bugs": {
@@ -61,24 +63,5 @@
   "directories": {
     "doc": "docs",
     "test": "test"
-  },
-  "dependencies": {
-    "babel": "^5.8.35",
-    "babel-loader": "^5.4.0",
-    "babel-plugin-object-assign": "^1.2.1",
-    "blue-tape": "^0.1.11",
-    "babel-eslint": "^4.1.8",
-    "dependency-check": "^2.5.1",
-    "doctoc": "^0.14.2",
-    "isparta": "^3.5.3",
-    "babel-core": "^6.7.2",
-    "nsp": "^1.1.0",
-    "rimraf": "^2.5.2",
-    "node-libs-browser": "^0.5.3",
-    "faucet": "^0.0.1",
-    "precommit-hook": "^3.0.0",
-    "standard-loader": "^3.0.0",
-    "standard": "^6.0.8",
-    "webpack": "^1.12.14"
   }
 }
