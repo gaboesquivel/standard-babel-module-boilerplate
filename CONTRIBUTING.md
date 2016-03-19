@@ -71,7 +71,7 @@ __Clone the repo__
 git clone git@github.com:gaboesquivel/standard-module-boilerplate.git
 ```
 
-__Let us Know you're working on the issue__
+__Let us Know you're working on the issue__ ( for non-trivial updates )
 
 If you're actively working on an issue, please comment in the issue thread stating that you're working on a fix, or (if you're an official contributor) assign it to yourself.
 
