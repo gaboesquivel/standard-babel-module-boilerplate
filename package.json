@@ -2,6 +2,9 @@
   "name": "standard-module-boilerplate",
   "description": "Boilerplate to author javascript modules in ES6 with Babel and standardjs style",
   "version": "1.0.0",
+  "engines":{
+    "node": "^4.4.0"
+  },
   "main": "build/index.js",
   "scripts": {
     "init": "rimraf .validate.json && rimraf .jshintrc  && rimraf .jshintignore",
