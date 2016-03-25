@@ -12,6 +12,7 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -28,3 +29,8 @@ Add your getting started instructions here.
 ## Contributing
 
 Read the [contributing guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+MIT © [Gabo Esquivel](http://gaboesquivel.com)
+See LICENSE for more info
