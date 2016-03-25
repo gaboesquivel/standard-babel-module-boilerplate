@@ -6,6 +6,7 @@ var minify = process.env.MINIFY || false
 var standardLoader = {
   test: /\.js$/,
   loaders: ['standard'],
+  exclude: /node_modules/,
   include: path.resolve('./source/')
 }
 
@@ -38,7 +39,8 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        loaders: ['babel?plugins=object-assign'],
+        loaders: ['babel'],
+        exclude: /node_modules/,
         include: path.resolve('./source')
       }
     ]
