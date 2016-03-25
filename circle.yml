@@ -1,12 +1,13 @@
 machine:
   node:
-    version: 4.4.0
+    version: 4.4.1
+
+dependencies:
+  pre:
+    - nvm install 5.9.1
 
 test:
   override:
-    - npm run audit
-    - npm run deps
-    - npm outdated --depth 0
-    - npm run lint
-    - node_modules/.bin/babel-node node_modules/.bin/isparta cover --report text --report html --verbose --dir ${CIRCLE_ARTIFACTS}/coverage test/index.js
-    - npm run build
+    - nvm use 4.4.1 && ./scripts/runtests.sh
+    - nvm use 5.9.1 && ./scripts/runtests.sh
+    # - node_modules/.bin/babel-node node_modules/.bin/isparta cover --report text --report html --verbose --dir ${CIRCLE_ARTIFACTS}/coverage test/index.js
