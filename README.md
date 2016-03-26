@@ -12,6 +12,10 @@ Goals:
 - optional boilerplate for CLI modules
 - follow [module best practices](https://github.com/mattdesl/module-best-practices)
 
+TODO:  
+- improve webpack config
+- speed up build task
+
 Once this is ready, a yeoman generator will be created to facilitate kicking off a new standard module.
 
 [![Circle CI](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master)
