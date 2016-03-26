@@ -6,10 +6,9 @@ Goals:
 - ES2015 with Babel
 - Lint with Standard
 - Tape tests with coverage report
-- Dependency security audits
-- Ensure dependencies are properly declared in package.json
-- Git precommit hook enforces quality checks on commit
 - CI config (Travis, CircleCI)
+- Dependency security audits
+- Ensure dependencies are declared in package.json
 - optional boilerplate for CLI modules
 
 Once this is ready, a yeoman generator will be create to facilitate kicking off a new standard module.
