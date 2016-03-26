@@ -1,6 +1,6 @@
 {
   "name": "standard-module-boilerplate",
-  "description": "Boilerplate to author javascript modules in ES6 with Babel and standardjs style",
+  "description": "Boilerplate to author javascript modules using Babel and standardjs style",
   "version": "1.0.0",
   "engines": {
     "node": "^4.4.0"
@@ -8,7 +8,7 @@
   "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
-    "lint": "standard source/**/*.js test/**/*.js",
+    "lint": "standard src/**/*.js test/**/*.js",
     "prebuild": "npm run clean",
     "build": "npm run build:webpack && npm run build:min && npm run build:doc",
     "build:webpack": "node scripts/buildWebpack.js",

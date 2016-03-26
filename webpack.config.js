@@ -7,7 +7,7 @@ var standardLoader = {
   test: /\.js$/,
   loaders: ['standard'],
   exclude: /node_modules/,
-  include: path.resolve('./source/')
+  include: path.resolve('./src/')
 }
 
 var uglifyPlugin = new webpack.optimize.UglifyJsPlugin({
@@ -17,7 +17,7 @@ var uglifyPlugin = new webpack.optimize.UglifyJsPlugin({
 module.exports = {
   devtool: 'sourcemap',
 
-  entry: './source/index.js',
+  entry: './src/index.js',
 
   output: {
     filename: minify ? 'index.min.js' : 'index.js',
@@ -41,7 +41,7 @@ module.exports = {
         test: /\.js$/,
         loaders: ['babel'],
         exclude: /node_modules/,
-        include: path.resolve('./source')
+        include: path.resolve('./src')
       }
     ]
   },

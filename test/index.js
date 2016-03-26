@@ -1,5 +1,5 @@
 import test from 'blue-tape'
-import hello from '../source/index'
+import hello from '../src/index'
 
 test('Tests run', (assert) => {
   assert.pass('Tests run')
