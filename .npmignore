@@ -27,7 +27,3 @@ build
 
 # Documents for development
 __docs
-
-# JShint
-.jshintignore
-.jshintrc
