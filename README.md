@@ -18,8 +18,8 @@ TODO:
 
 Once this is ready, a yeoman generator will be created to facilitate kicking off a new standard module.
 
-[![Circle CI](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master)
-[![Travis-CI](https://travis-ci.org/gaboesquivel/standard-module-boilerplate.svg)](https://travis-ci.org/gaboesquivel/standard-module-boilerplate)
+[![Circle CI](https://circleci.com/gh/gaboesquivel/standard-babel-module-boilerplate/tree/master.svg?style=svg?style=shield)](https://circleci.com/gh/gaboesquivel/standard-babel-module-boilerplate/tree/master)
+[![Travis-CI](https://travis-ci.org/gaboesquivel/standard-babel-module-boilerplate.svg)](https://travis-ci.org/gaboesquivel/standard-babel-module-boilerplate)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
