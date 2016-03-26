@@ -111,15 +111,7 @@ git push <your-git-account> <your-feature-branch>
 * **Wait for the reviewer to approve and merge the request**
 * Minor documentation grammar/spelling fixes (code example changes should be reviewed)
 
-__For large changes spanning many commits__
-
-* Create a meta-issue with a bullet list using the `* [ ] item` markdown syntax.
-* Create issues for each bullet point
-* Link to the meta-issue from each bullet point issue
-* Check off the bullet list as items get completed
-
-Linking from the bullet point issues to the meta issue will create a list of issues with status indicators in the issue comments stream, which will give us a quick visual reference to see what's done and what still needs doing.
-
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
 ## Advanced Git tools
 
