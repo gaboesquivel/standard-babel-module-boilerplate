@@ -10,8 +10,9 @@ Goals:
 - Dependency security audits
 - Ensure dependencies are declared in package.json
 - optional boilerplate for CLI modules
+- follow [module best practices](https://github.com/mattdesl/module-best-practices)
 
-Once this is ready, a yeoman generator will be create to facilitate kicking off a new standard module.
+Once this is ready, a yeoman generator will be created to facilitate kicking off a new standard module.
 
 [![Circle CI](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/gaboesquivel/standard-module-boilerplate/tree/master)
 [![Travis-CI](https://travis-ci.org/gaboesquivel/standard-module-boilerplate.svg)](https://travis-ci.org/gaboesquivel/standard-module-boilerplate)
