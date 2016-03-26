@@ -46,7 +46,9 @@
     "standard-loader": "^3.0.0",
     "webpack": "^1.11.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-preset-stage-2": "^6.5.0"
+  },
   "author": "Gabo Esquivel <contact@gaboesquivel.com>",
   "license": "MIT",
   "bugs": {
