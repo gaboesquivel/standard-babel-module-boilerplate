@@ -44,10 +44,11 @@
     "rimraf": "^2.4.2",
     "standard": "^6.0.8",
     "standard-loader": "^3.0.0",
-    "webpack": "^1.11.0"
+    "webpack": "^1.11.0",
+    "babel-preset-stage-2": "^6.5.0"
   },
   "dependencies": {
-    "babel-preset-stage-2": "^6.5.0"
+
   },
   "author": "Gabo Esquivel <contact@gaboesquivel.com>",
   "license": "MIT",
