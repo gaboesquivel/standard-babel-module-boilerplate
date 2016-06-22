@@ -116,7 +116,7 @@ git push <your-git-account> <your-feature-branch>
 ## Advanced Git tools
 
 There are also tools like [Hub](https://hub.github.com/) and [git-extras](https://github.com/tj/git-extras) that facilitate interacting with Github.
-You leverage these tools to contribute to this repository.
+You can leverage these tools to contribute to this repository.
 
 
 ## Version Numbers
