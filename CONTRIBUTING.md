@@ -48,9 +48,10 @@ Introduction to Github Flow https://guides.github.com/introduction/flow/
 
 ### Always follow these rules:  
 
-* Commit each fix as a separate change
-* Provide useful commit messages  
-* Use the imperative mood in the subject line. Eg. `fix login error`, `add config file`, `remove unused code`   
+* Commit each fix as a separate change.
+* Provide useful commit messages.  
+* Use the imperative mood in the subject line. Eg. `fix login error`, `add config file`, `remove unused code`
+* Provide a short commit message in the first line (50-72 character). Looking at the output of `gitk` or `git log --oneline` might help you understand why. 
 * Reference the git issue on the body of your commit message, never on the first line. Eg:   
 ```
 git commit -m 'add login feature
