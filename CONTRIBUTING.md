@@ -43,7 +43,7 @@ Introduction to Github Flow https://guides.github.com/introduction/flow/
 * Non-trivial changes should be discussed on an issue first.
 * Let us know you're working on the issue.
 * Develop in a topic branch, not master.
-* Provide useful commit messages
+* Provide useful pull request description
 * Squash your commits.
 * Write a good description of your PR.
 
